@@ -4,6 +4,11 @@ header img{
     width: 70px;
 }
 
+header{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /*Conteudo principal*/
 main{
     min-height: 500px;
@@ -11,7 +16,7 @@ main{
 
 /*banner*/
 #section-banners img{
-    height: 500px;
+    height: 780px;
 }
 
 /*Produtos vendidos*/
@@ -26,7 +31,7 @@ main{
  }
 
  #section-vendidos img {
-    height: 300px;
+    height: 450px;
     border-radius: 10px;
  }
 
@@ -34,6 +39,9 @@ main{
     margin: 5px;
     border: 1px solid #ccc;
     border-radius: 10px;
+    height: 700px;
+    width: 600px;
+
  }
 
  #section-vendidos .preco {
@@ -83,4 +91,15 @@ footer p {
 #form-cadastrar{
     padding: 50px;
     display: none;
+}
+
+#chamada{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+header, main, footer {
+    width: 100%;
+    margin: 0 auto;
 }

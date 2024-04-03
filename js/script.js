@@ -23,7 +23,7 @@ function Login(){
         }   
 
     if(usuario == 'romulo franca' && senha == '12345678'){
-        window.location = "loja.html";
+        window.location = "venda.html";
         logado = 1;
         }          
 
