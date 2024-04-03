@@ -18,12 +18,12 @@ function Login(){
     var senha = document.getElementById("senha").value;
 
     if(usuario == 'admin' && senha == '123456'){
-        window.location = "index.html";
+        window.location = "loja.html";
         logado = 1;
         }   
 
     if(usuario == 'romulo franca' && senha == '12345678'){
-        window.location = "index.html";
+        window.location = "loja.html";
         logado = 1;
         }          
 
