@@ -22,6 +22,11 @@ function Login(){
         logado = 1;
         }   
 
+    if(usuario == 'romulo franca' && senha == '12345678'){
+        window.location = "index.html";
+        logado = 1;
+        }          
+
     if(logado == 0){
         alert("Acesso negado. Dados incorretos");
         }
