@@ -14,7 +14,7 @@ header{
 
 /*banner*/
 #section-banners img{
-    height: 600px;
+    height: 750px;
     width: 100px;
 }
 
@@ -50,7 +50,7 @@ header{
 
 /*Rodapé*/
 footer{
-    text-align: center;
+    text-align: justify;
 }
 
 footer p {
@@ -111,15 +111,17 @@ header, main, footer {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ebebeb;
+    font-weight: bolder;
 }
 
 .mvp{
-    width: 80%;
+    width: 600px;
+    height: 600px;
     max-width: 600px;
-    margin: 20px auto;
+    margin: 50px auto;
     background-color: #fff;
-    padding: 20px;
+    padding: 50px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -158,6 +160,24 @@ header, main, footer {
 }
 
 .botao{
-    background-color:#45a049;
+    background-color:#57f55f;
+    width: 120px;
+    height: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #000000;
     
+    
+}
+
+
+.parte1{
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+.parte2{
+    padding-top: 20px;
+    padding-left: 75%;
+    background-color: rgb(255, 255, 255);
 }

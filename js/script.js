@@ -18,7 +18,7 @@ function Login(){
     var senha = document.getElementById("senha").value;
 
     if(usuario == 'admin' && senha == '123456'){
-        window.location = "loja.html";
+        window.location = "venda.html";
         logado = 1;
         }   
 
