@@ -50,13 +50,45 @@ header{
 
 /*Rodapé*/
 footer{
-    text-align: justify;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: #003cff;
+    color: #ebebeb;
+    
 }
 
-footer p {
-    font-weight: bold;
-    padding: 10px;
+.contatos {
+    padding: 20px;
+
 }
+
+.siga{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    
+}
+
+.siga img{
+    width: 20px;
+    background-color: #ff0000;
+}
+
+footer .ponto {
+    display: flex;
+    align-items: end;
+    background-color: #57f55f;
+
+
+
+}
+
 /*Botão Voltar topo*/
 #voltar-top{
     position: fixed;
@@ -104,6 +136,8 @@ header, main, footer {
 .card-text1{
     font-size: 17px;
 }
+
+
 
 /*Pagina de vendas*/
 
@@ -181,3 +215,106 @@ header, main, footer {
     padding-left: 75%;
     background-color: rgb(255, 255, 255);
 }
+
+/*Produtos vendidos2*/
+
+
+#section-vendidosduo {
+    text-align: center;
+    background-color: #000000;
+    padding: 20px;
+ }
+
+ #section-vendidosduo h2 {
+    font-weight: bold;
+    padding: 20px;
+ }
+
+ #section-vendidosduo img {
+    height: 450px;
+    border-radius: 10px;
+ }
+
+ #section-vendidosduo .card {
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 700px;
+    width: 600px;
+
+ }
+
+ #section-vendidosduo .preco {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+ }
+
+ /*Produtos vendidos3*/
+
+
+#section-vendidos3 {
+    text-align: center;
+    background-color: #ff0000;
+    padding: 20px;
+ }
+
+ #section-vendidos3 h2 {
+    font-weight: bold;
+    padding: 20px;
+ }
+
+ #section-vendidos3 img {
+    height: 450px;
+    border-radius: 10px;
+ }
+
+ #section-vendidos3 .card {
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 700px;
+    width: 600px;
+
+ }
+
+ #section-vendidos3 .preco {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+ }
+
+  /*Produtos vendidos2*/
+
+
+#section-vendidos4 {
+    text-align: center;
+    background-color: #003cff;
+    padding: 20px;
+ }
+
+ #section-vendidos4 h2 {
+    font-weight: bold;
+    padding: 20px;
+ }
+
+ #section-vendidos4 img {
+    height: 450px;
+    border-radius: 10px;
+ }
+
+ #section-vendidos4 .card {
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 700px;
+    width: 600px;
+
+ }
+
+ #section-vendidos4 .preco {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+ }
+
