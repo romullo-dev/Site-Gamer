@@ -49,7 +49,7 @@ header{
  }
 
 /*Rodapé*/
-footer{
+footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -59,40 +59,35 @@ footer{
     font-weight: bold;
     background-color: #000e3d;
     color: #ebebeb;
-    
-}
+    position: relative;
 
 .contatos {
     padding: 20px;
-
 }
 
-.miller{
-    padding-left: -30%; 
-    background-color: ;
+.miller {
+    padding-left: 20px; 
+    position: relative; 
 }
 
-.siga{
+.miller .ponto {
+    position: absolute; 
+    bottom: 0; 
+    background-color: #57f55f;
+}
+
+.siga {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 20px;
-    
 }
 
-.siga img{
+.siga img {
     width: 20px;
     background-color: #ff0000;
 }
 
-footer .ponto {
-    display: flex;
-    align-items: end;
-    background-color: #57f55f;
-
-
-
-}
 
 /*Botão Voltar topo*/
 #voltar-top{
