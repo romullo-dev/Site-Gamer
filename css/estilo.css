@@ -60,6 +60,7 @@ footer {
     background-color: #000e3d;
     color: #ebebeb;
     position: relative;
+}
 
 .contatos {
     padding: 20px;
@@ -122,12 +123,20 @@ footer {
 }
 
 #chamada{
-    text-align: center;
+    justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    padding: 50px;
+    padding: 5%;
 }
 
+
+#chamada2{
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10%;
+}
 header, main, footer {
     width: 100%;
     margin: 0 auto;
@@ -216,12 +225,11 @@ header, main, footer {
     background-color: rgb(255, 255, 255);
 }
 
-/*Produtos vendidos2*/
+/*Produtos vendidosduo*/
 
 
 #section-vendidosduo {
     text-align: center;
-    background-color: #000000;
     padding: 20px;
  }
 
@@ -250,46 +258,13 @@ header, main, footer {
     font-weight: bold;
  }
 
- /*Produtos vendidos3*/
+ 
 
-
-#section-vendidos3 {
-    text-align: center;
-    background-color: #ff0000;
-    padding: 20px;
- }
-
- #section-vendidos3 h2 {
-    font-weight: bold;
-    padding: 20px;
- }
-
- #section-vendidos3 img {
-    height: 450px;
-    border-radius: 10px;
- }
-
- #section-vendidos3 .card {
-    margin: 5px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    height: 700px;
-    width: 600px;
-
- }
-
- #section-vendidos3 .preco {
-    color: red;
-    font-size: 18px;
-    font-weight: bold;
- }
-
-  /*Produtos vendidos2*/
+  /*Produtos vendidos4*/
 
 
 #section-vendidos4 {
     text-align: center;
-    background-color: #003cff;
     padding: 20px;
  }
 
